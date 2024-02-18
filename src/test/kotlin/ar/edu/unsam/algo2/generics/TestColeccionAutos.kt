@@ -19,7 +19,7 @@ class TestColeccionAutos : DescribeSpec({
         }
 
         it("si esta completa y la mayoria de sus elementos son raros, es valiosa") {
-            with(coleccionAutos) {
+            coleccionAutos.apply {
                 agregarElemento(Auto(LocalDate.of(1930, 1, 1)))
                 agregarElemento(Auto(LocalDate.of(1928, 1, 1)))
             }

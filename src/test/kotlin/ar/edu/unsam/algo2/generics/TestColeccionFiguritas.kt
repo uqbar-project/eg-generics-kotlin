@@ -29,7 +29,7 @@ class TestColeccionFiguritas : DescribeSpec({
         }
 
         it("completa y con menos de la mitad de sus elementos raros, no es valiosa") {
-            with(coleccionFiguritas) {
+            coleccionFiguritas.apply {
                 cantidadObjetivo = 3
                 agregarElemento(Figurita())
                 agregarElemento(Figurita())
