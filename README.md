@@ -4,7 +4,7 @@
 [![build](https://github.com/uqbar-project/eg-generics-kotlin/actions/workflows/build.yml/badge.svg)](https://github.com/uqbar-project/eg-generics-kotlin/actions/workflows/build.yml) [![coverage](https://codecov.io/gh/uqbar-project/eg-generics-kotlin/branch/master/graph/badge.svg)](https://codecov.io/gh/uqbar-project/eg-generics-kotlin/branch/master/graph/badge.svg) 
 
 
-Este ejemplo didáctico, muestra como utilizando **Generics**, podemos evitar duplicar código.
+Este ejemplo didáctico, muestra cómo utilizando **Generics**, podemos evitar la duplicación de código.
 
 ### El ejemplo
 
@@ -16,7 +16,7 @@ Estamos modelando el dominio para un coleccionista de autos, figuritas y otras p
 Queremos poder armar colecciones de autos o de figuritas y hacer operaciones con ellas:
 
 - agregar elementos (que sean solo autos o figuritas)
-- saber si completamos la colección (cuando llegamos a n elementos)\
+- saber si completamos la colección (cuando llegamos a n elementos)
 - saber cuántos elementos "raros" tenemos
 - saber si hay mayoría de elementos raros 
 
